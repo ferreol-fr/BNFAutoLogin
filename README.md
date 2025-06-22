@@ -1,0 +1,1 @@
+Une extension Firefox très basique qui permet de se connecter automatiquement au site : https://authentification.bnf.fr/ à condition que le mot de passe soit enregistré pour cette adresse dans Firefox et que l’option "Remplir automatiquement les noms d’utilisateur et mots de passe" soit activée

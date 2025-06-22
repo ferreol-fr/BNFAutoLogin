@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "BNF Auto login",
+  "version": "1.0",
+  "description": "Une extension qui vous connecte automatiquement à la BNF",
+  "content_scripts": [
+    {
+      "matches": ["https://authentification.bnf.fr/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "homepage_url": "https://github.com/ferreol-fr/BNFAutoLogin",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0",
+      "update_url": "https://github.com/ferreol-fr/BNFAutoLogin/releases/latest/download/update_manifest.json",
+      "id": "123027488ferreolfr@users.noreply.github.com"
+    }
+  }
+}
